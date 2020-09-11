@@ -1,0 +1,27 @@
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+.mockup {
+    width: 17rem;
+}
+
+.navbar-brand {
+    font-family: 'Niconne', cursive;
+    font-size: 2.5rem;
+}
+
+.woman-profile {
+    width: 15rem;
+}
+
+#title {
+    background-color: #ff4c68;
+}
