@@ -7,12 +7,12 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     line-height: 1.5;
-    padding: 15% 0 3% 0;
-    color: #ffffff;
+    padding: 50% 0 5% 0;
 }
 
 .mockup {
     width: 20rem;
+    padding: 10% 0;
 }
 
 .navbar-brand {
@@ -28,7 +28,36 @@ h1 {
     padding: 3% 20%;
 }
 
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
 
 #title {
-    background-color: #ff4c68;
+    color: #ffffff;
+    -webkit-animation: bg-color 20s infinite;
+    animation: bg-color 20s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+@keyframes bg-color {
+    0% {
+        background-color: #ff4b5c;
+    }
+
+    33% {
+        background-color: #28df99;
+    }
+
+    66% {
+        background-color: #ffd571;
+    }
+
+    100% {
+        background-color: #40a8c4;
+    }
 }
