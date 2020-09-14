@@ -142,8 +142,14 @@ p {
     background-color: #92ff7f;
 }
 
-/* pricing */
+/* pricing cards */
 
 #pricing {
-    margin: 2rem;
+    padding: 3.5rem;
+}
+
+.card {
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem 0 2rem;
 }
