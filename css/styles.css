@@ -1,4 +1,6 @@
 
+/* default tags */
+
 body {
     font-family: 'Ubuntu', sans-serif;
 }
@@ -21,26 +23,60 @@ p {
     color: #8f8f8f;
 }
 
+/* title id section */
+
+#title {
+    color: #ffffff;
+    -webkit-animation: bg-color 20s infinite;
+    animation: bg-color 20s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+/* background changing color settings */
+
+@keyframes bg-color {
+    0% {
+        background-color: #ff4b5c;
+    }
+
+    33% {
+        background-color: #92ff7f;
+    }
+
+    66% {
+        background-color: #f9d56e;
+    }
+
+    100% {
+        background-color: #40a8c4;
+    }
+}
+
+/* paragraph with a lot of margin */
+
 .paragraph-features {
     margin: 0 10%;
 }
 
-.mockup {
+/* title image */
+
+.iphone-image {
     width: 60%;
     padding: 10% 0;
 }
 
-.navbar-brand {
-    font-family: 'Niconne', cursive;
-    font-size: 2.5rem;
-}
-
-.woman-profile {
-    width: 15rem;
-}
+/* title container */
 
 .container-fluid {
     padding: 3% 20%;
+}
+
+/* navbar settings*/
+
+.navbar-brand {
+    font-family: 'Niconne', cursive;
+    font-size: 2.5rem;
 }
 
 .nav-link {
@@ -51,8 +87,17 @@ p {
     padding: 0 18px;
 }
 
+/* download buttons */
 .download-button {
     margin: 5% 3% 5% 0;
+}
+
+/* feature settings */
+
+#features {
+    text-align: center;
+    padding: 10% 15%;
+    background-color: #f5f0e3;
 }
 
 .feature-icons {
@@ -65,33 +110,40 @@ p {
     color: #ff4b5c;
 }
 
-#features {
-    text-align: center;
-    padding: 10% 15%;
-}
+/* testimonials */
 
-#title {
+#testimonials {
     color: #ffffff;
-    -webkit-animation: bg-color 20s infinite;
-    animation: bg-color 20s infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
+    text-align: center;
 }
 
-@keyframes bg-color {
-    0% {
-        background-color: #ff4b5c;
-    }
+.names-testimonial {
+    font-size: 20px;
+}
 
-    33% {
-        background-color: #28df99;
-    }
+.carousel-item {
+    padding: 5rem;
+}
 
-    66% {
-        background-color: #ffd571;
-    }
+.carousel-slide {
+    margin: 20rem;
+}
 
-    100% {
-        background-color: #40a8c4;
-    }
+.woman-image {
+    width: 10rem;
+    margin: 3rem 1rem;
+}
+
+.color-photo-1 {
+    background-color: #f9d56e;
+}
+
+.color-photo-2 {
+    background-color: #92ff7f;
+}
+
+/* pricing */
+
+#pricing {
+    margin: 2rem;
 }
