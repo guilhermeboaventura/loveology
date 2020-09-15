@@ -46,11 +46,11 @@ p {
     }
 
     33% {
-        background-color: #92ff7f;
+        background-color: #bac964;
     }
 
     66% {
-        background-color: #f9d56e;
+        background-color: #f6d743;
     }
 
     100% {
@@ -140,11 +140,11 @@ p {
 }
 
 .color-photo-1 {
-    background-color: #f9d56e;
+    background-color: #f6d743;
 }
 
 .color-photo-2 {
-    background-color: #92ff7f;
+    background-color: #bac964;
 }
 
 /* pricing cards */
