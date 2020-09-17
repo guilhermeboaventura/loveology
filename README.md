@@ -9,6 +9,6 @@ People these days are more careful with who they will build an relationship, And
 ## Link for announcement of Loveology:
 ###### https://guilhermeboaventura.github.io/loveology/
 
-##Follow me in Linkedin for see the content that I did or I'm making! :smile:
+## Follow me in Linkedin for see the content that I did or I'm making! :smile:
 
 ###### https://www.linkedin.com/in/guilhermeboaventura/
